@@ -19,6 +19,7 @@
 		A1B6ABC42541BF4F00C2097D /* LMTitleNavigationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC12541BF4F00C2097D /* LMTitleNavigationLabel.m */; };
 		A1B6ABC72543C5FD00C2097D /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC62543C5FD00C2097D /* DisplayViewController.m */; };
 		A1B6ABCA2543C9A300C2097D /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC92543C9A300C2097D /* SubViewController.m */; };
+		A1B6ABCE25440C6600C2097D /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A1B6ABCD25440C6600C2097D /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A1B6ABC62543C5FD00C2097D /* DisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
 		A1B6ABC82543C9A300C2097D /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
 		A1B6ABC92543C9A300C2097D /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		A1B6ABCD25440C6600C2097D /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		DC49700DA8A2F2C0162F20AB /* Pods-SLTitleNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTitleNavigationController.debug.xcconfig"; path = "Target Support Files/Pods-SLTitleNavigationController/Pods-SLTitleNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		A1B6AB962541BE0F00C2097D = {
 			isa = PBXGroup;
 			children = (
+				A1B6ABCD25440C6600C2097D /* demo.gif */,
 				A1B6ABA12541BE0F00C2097D /* SLTitleNavigationController */,
 				A1B6ABA02541BE0F00C2097D /* Products */,
 				9B6702AE1AE93708A937F739 /* Pods */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B6ABB22541BE1000C2097D /* LaunchScreen.storyboard in Resources */,
+				A1B6ABCE25440C6600C2097D /* demo.gif in Resources */,
 				A1B6ABAF2541BE1000C2097D /* Assets.xcassets in Resources */,
 				A1B6ABAD2541BE0F00C2097D /* Main.storyboard in Resources */,
 			);
