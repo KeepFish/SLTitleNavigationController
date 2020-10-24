@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671CFB42F7C5710F55D07351 /* libPods-SLTitleNavigationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109B53B2DE58039E54FA9206 /* libPods-SLTitleNavigationController.a */; };
+		A1B6ABA42541BE0F00C2097D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABA32541BE0F00C2097D /* AppDelegate.m */; };
+		A1B6ABAA2541BE0F00C2097D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABA92541BE0F00C2097D /* ViewController.m */; };
+		A1B6ABAD2541BE0F00C2097D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6ABAB2541BE0F00C2097D /* Main.storyboard */; };
+		A1B6ABAF2541BE1000C2097D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B6ABAE2541BE1000C2097D /* Assets.xcassets */; };
+		A1B6ABB22541BE1000C2097D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6ABB02541BE1000C2097D /* LaunchScreen.storyboard */; };
+		A1B6ABB52541BE1000C2097D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABB42541BE1000C2097D /* main.m */; };
+		A1B6ABC22541BF4F00C2097D /* LMTitleNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABBD2541BF4F00C2097D /* LMTitleNavigationView.m */; };
+		A1B6ABC32541BF4F00C2097D /* LMMultipleControllerViewDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC02541BF4F00C2097D /* LMMultipleControllerViewDisplayView.m */; };
+		A1B6ABC42541BF4F00C2097D /* LMTitleNavigationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC12541BF4F00C2097D /* LMTitleNavigationLabel.m */; };
+		A1B6ABC72543C5FD00C2097D /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC62543C5FD00C2097D /* DisplayViewController.m */; };
+		A1B6ABCA2543C9A300C2097D /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B6ABC92543C9A300C2097D /* SubViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109B53B2DE58039E54FA9206 /* libPods-SLTitleNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLTitleNavigationController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1436B53B3CA5858BF4E10F /* Pods-SLTitleNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTitleNavigationController.release.xcconfig"; path = "Target Support Files/Pods-SLTitleNavigationController/Pods-SLTitleNavigationController.release.xcconfig"; sourceTree = "<group>"; };
+		A1B6AB9F2541BE0F00C2097D /* SLTitleNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTitleNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B6ABA22541BE0F00C2097D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1B6ABA32541BE0F00C2097D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1B6ABA82541BE0F00C2097D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1B6ABA92541BE0F00C2097D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1B6ABAC2541BE0F00C2097D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B6ABAE2541BE1000C2097D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B6ABB12541BE1000C2097D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B6ABB32541BE1000C2097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B6ABB42541BE1000C2097D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1B6ABBC2541BF4E00C2097D /* LMTitleNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTitleNavigationView.h; sourceTree = "<group>"; };
+		A1B6ABBD2541BF4F00C2097D /* LMTitleNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTitleNavigationView.m; sourceTree = "<group>"; };
+		A1B6ABBE2541BF4F00C2097D /* LMTitleNavigationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTitleNavigationLabel.h; sourceTree = "<group>"; };
+		A1B6ABBF2541BF4F00C2097D /* LMMultipleControllerViewDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMultipleControllerViewDisplayView.h; sourceTree = "<group>"; };
+		A1B6ABC02541BF4F00C2097D /* LMMultipleControllerViewDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMultipleControllerViewDisplayView.m; sourceTree = "<group>"; };
+		A1B6ABC12541BF4F00C2097D /* LMTitleNavigationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTitleNavigationLabel.m; sourceTree = "<group>"; };
+		A1B6ABC52543C5FD00C2097D /* DisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		A1B6ABC62543C5FD00C2097D /* DisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		A1B6ABC82543C9A300C2097D /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		A1B6ABC92543C9A300C2097D /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		DC49700DA8A2F2C0162F20AB /* Pods-SLTitleNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTitleNavigationController.debug.xcconfig"; path = "Target Support Files/Pods-SLTitleNavigationController/Pods-SLTitleNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B6AB9C2541BE0F00C2097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671CFB42F7C5710F55D07351 /* libPods-SLTitleNavigationController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6702AE1AE93708A937F739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC49700DA8A2F2C0162F20AB /* Pods-SLTitleNavigationController.debug.xcconfig */,
+				5C1436B53B3CA5858BF4E10F /* Pods-SLTitleNavigationController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1B6AB962541BE0F00C2097D = {
+			isa = PBXGroup;
+			children = (
+				A1B6ABA12541BE0F00C2097D /* SLTitleNavigationController */,
+				A1B6ABA02541BE0F00C2097D /* Products */,
+				9B6702AE1AE93708A937F739 /* Pods */,
+				AFC0911ACC49D4BBB6591C3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B6ABA02541BE0F00C2097D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6AB9F2541BE0F00C2097D /* SLTitleNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B6ABA12541BE0F00C2097D /* SLTitleNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6ABBB2541BF2E00C2097D /* TitleNav */,
+				A1B6ABA22541BE0F00C2097D /* AppDelegate.h */,
+				A1B6ABA32541BE0F00C2097D /* AppDelegate.m */,
+				A1B6ABA82541BE0F00C2097D /* ViewController.h */,
+				A1B6ABA92541BE0F00C2097D /* ViewController.m */,
+				A1B6ABC52543C5FD00C2097D /* DisplayViewController.h */,
+				A1B6ABC62543C5FD00C2097D /* DisplayViewController.m */,
+				A1B6ABC82543C9A300C2097D /* SubViewController.h */,
+				A1B6ABC92543C9A300C2097D /* SubViewController.m */,
+				A1B6ABAB2541BE0F00C2097D /* Main.storyboard */,
+				A1B6ABAE2541BE1000C2097D /* Assets.xcassets */,
+				A1B6ABB02541BE1000C2097D /* LaunchScreen.storyboard */,
+				A1B6ABB32541BE1000C2097D /* Info.plist */,
+				A1B6ABB42541BE1000C2097D /* main.m */,
+			);
+			path = SLTitleNavigationController;
+			sourceTree = "<group>";
+		};
+		A1B6ABBB2541BF2E00C2097D /* TitleNav */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6ABBF2541BF4F00C2097D /* LMMultipleControllerViewDisplayView.h */,
+				A1B6ABC02541BF4F00C2097D /* LMMultipleControllerViewDisplayView.m */,
+				A1B6ABBE2541BF4F00C2097D /* LMTitleNavigationLabel.h */,
+				A1B6ABC12541BF4F00C2097D /* LMTitleNavigationLabel.m */,
+				A1B6ABBC2541BF4E00C2097D /* LMTitleNavigationView.h */,
+				A1B6ABBD2541BF4F00C2097D /* LMTitleNavigationView.m */,
+			);
+			path = TitleNav;
+			sourceTree = "<group>";
+		};
+		AFC0911ACC49D4BBB6591C3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				109B53B2DE58039E54FA9206 /* libPods-SLTitleNavigationController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B6AB9E2541BE0F00C2097D /* SLTitleNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B6ABB82541BE1000C2097D /* Build configuration list for PBXNativeTarget "SLTitleNavigationController" */;
+			buildPhases = (
+				902A5C65A4BAA4DAB46942D8 /* [CP] Check Pods Manifest.lock */,
+				A1B6AB9B2541BE0F00C2097D /* Sources */,
+				A1B6AB9C2541BE0F00C2097D /* Frameworks */,
+				A1B6AB9D2541BE0F00C2097D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLTitleNavigationController;
+			productName = SLTitleNavigationController;
+			productReference = A1B6AB9F2541BE0F00C2097D /* SLTitleNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B6AB972541BE0F00C2097D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = sl;
+				TargetAttributes = {
+					A1B6AB9E2541BE0F00C2097D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A1B6AB9A2541BE0F00C2097D /* Build configuration list for PBXProject "SLTitleNavigationController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B6AB962541BE0F00C2097D;
+			productRefGroup = A1B6ABA02541BE0F00C2097D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B6AB9E2541BE0F00C2097D /* SLTitleNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B6AB9D2541BE0F00C2097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B6ABB22541BE1000C2097D /* LaunchScreen.storyboard in Resources */,
+				A1B6ABAF2541BE1000C2097D /* Assets.xcassets in Resources */,
+				A1B6ABAD2541BE0F00C2097D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		902A5C65A4BAA4DAB46942D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLTitleNavigationController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B6AB9B2541BE0F00C2097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B6ABC22541BF4F00C2097D /* LMTitleNavigationView.m in Sources */,
+				A1B6ABAA2541BE0F00C2097D /* ViewController.m in Sources */,
+				A1B6ABC42541BF4F00C2097D /* LMTitleNavigationLabel.m in Sources */,
+				A1B6ABA42541BE0F00C2097D /* AppDelegate.m in Sources */,
+				A1B6ABC72543C5FD00C2097D /* DisplayViewController.m in Sources */,
+				A1B6ABB52541BE1000C2097D /* main.m in Sources */,
+				A1B6ABC32541BF4F00C2097D /* LMMultipleControllerViewDisplayView.m in Sources */,
+				A1B6ABCA2543C9A300C2097D /* SubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1B6ABAB2541BE0F00C2097D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B6ABAC2541BE0F00C2097D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B6ABB02541BE1000C2097D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B6ABB12541BE1000C2097D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B6ABB62541BE1000C2097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1B6ABB72541BE1000C2097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B6ABB92541BE1000C2097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC49700DA8A2F2C0162F20AB /* Pods-SLTitleNavigationController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5KB7K6T2P;
+				INFOPLIST_FILE = SLTitleNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.titlenav.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1B6ABBA2541BE1000C2097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1436B53B3CA5858BF4E10F /* Pods-SLTitleNavigationController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5KB7K6T2P;
+				INFOPLIST_FILE = SLTitleNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.titlenav.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B6AB9A2541BE0F00C2097D /* Build configuration list for PBXProject "SLTitleNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B6ABB62541BE1000C2097D /* Debug */,
+				A1B6ABB72541BE1000C2097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B6ABB82541BE1000C2097D /* Build configuration list for PBXNativeTarget "SLTitleNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B6ABB92541BE1000C2097D /* Debug */,
+				A1B6ABBA2541BE1000C2097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B6AB972541BE0F00C2097D /* Project object */;
+}
